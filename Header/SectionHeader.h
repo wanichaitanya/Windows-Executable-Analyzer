@@ -2,7 +2,7 @@
 #define SECTION_HEADER_H
 
 #include "Header.h"
-class sec_header
+__declspec(dllexport) class sec_header
 {
   private: 
     IMAGE_SECTION_HEADER secHeader;  //Represents the image section header format.
