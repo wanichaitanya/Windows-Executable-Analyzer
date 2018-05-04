@@ -3,7 +3,7 @@
 
 #include "Header.h"
 
-class opt_header
+__declspec(dllexport) class opt_header
 {
   private:
     IMAGE_OPTIONAL_HEADER optHeader; //Represents the optional header format.
