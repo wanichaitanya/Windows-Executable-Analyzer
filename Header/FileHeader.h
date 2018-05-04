@@ -3,7 +3,7 @@
 
 #include "Header.h"
 
-class file_header
+__declspec(dllexport) class file_header
 {
   private :
     IMAGE_FILE_HEADER fileHeader; //Represents the COFF header format
