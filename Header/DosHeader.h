@@ -2,7 +2,7 @@
 #define DOS_HEADER_H
 
 #include "Header.h"
-class dos_header
+__declspec(dllexport) class dos_header
 {
   private:
     IMAGE_DOS_HEADER dosheader;
