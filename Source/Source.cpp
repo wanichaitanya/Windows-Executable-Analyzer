@@ -26,7 +26,7 @@ void CalculateOffset(int fd)
 int main(int argc ,char *argv[])
 {
   int ip;
-  char file_name[] = "C:\\Users\\cwani\\Documents\\Visual Studio 2013\\Projects\\PE_File_Explorer\\Debug\\PE_File_Explorer.exe";
+  char file_name[256] = {'\0'};
 
   cout<<"enter file name";
   cin>>file_name;
