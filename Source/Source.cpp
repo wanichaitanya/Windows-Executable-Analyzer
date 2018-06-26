@@ -57,7 +57,7 @@ int main(int argc ,char *argv[])
       case 1 : 
       {
         dos_header dosHeader(fd);
-        dos.show_header();
+        dosHeader.show_header();
         break;
       }
 
