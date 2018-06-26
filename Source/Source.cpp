@@ -56,29 +56,29 @@ int main(int argc ,char *argv[])
     {
       case 1 : 
       {
-        dos_header dh(fd);
-        dh.show_header();
+        dos_header dosHeader(fd);
+        dos.show_header();
         break;
       }
 
       case 2 :
       {
-        file_header dh(fd);
-        dh.show_header();
+        file_header fileHeader(fd);
+        fileHeader.show_header();
         break;
       }
 
       case 3 :
       {
-        opt_header dh(fd);
-        dh.show_header();
+        opt_header optionalHeader(fd);
+        optionalHeader.show_header();
         break;
       }
 
       case 4 : 
       {
-        sec_header dh(fd);
-        dh.show_header();
+        sec_header sectionHeader(fd);
+        sectionHeader.show_header();
         break;
       }
 
